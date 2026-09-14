@@ -1,0 +1,20 @@
+{
+  "quotes": [
+    {
+      "text": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
+      "author": "J.K. Rowling",
+      "book": "Harry Potter and the Chamber of Secrets"
+    },
+    {
+      "text": "There is some good in this world, and it's worth fighting for.",
+      "author": "J.R.R. Tolkien",
+      "book": "The Two Towers"
+    }
+  ],
+  "reflections": [
+    {
+      "book": "The Two Towers",
+      "notes": "Sam's speech always resonates with me when I feel overwhelmed."
+    }
+  ]
+}
