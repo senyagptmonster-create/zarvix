@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:zarvix/product/product_app.dart';
+import 'package:zarvix/zarvix_app.dart';
 
 void main() {
-  testWidgets('Smoke test', (WidgetTester tester) async {
-    await tester.pumpWidget(const MaterialApp(home: ProductApp()));
-    expect(find.byType(ProductApp), findsOneWidget);
+  testWidgets('ZarvixApp smoke test', (WidgetTester tester) async {
+    await tester.pumpWidget(const ZarvixApp());
+    await tester.pump();
+    expect(find.text('Quote Vault'), findsWidgets);
   });
 }
